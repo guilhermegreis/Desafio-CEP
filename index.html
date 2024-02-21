@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Formularío de Endereço</h2>
+
+    <form action="" class="endereco" id="endereco">
+            
+        <label>CEP:</label>
+        <input type="text" id="cep" name="cep" maxlength="8">
+
+        <label>Rua:</label>
+        <input type="text" id="rua" name="rua" readonly>
+
+        <label>Bairro:</label>
+        <input type="text" id="bairro" name="bairro" readonly>
+
+        <label>Cidade:</label>
+        <input type="text" id="cidade" name="cidade" readonly>
+
+        <label>Estado:</label>
+        <input type="text" id="estado" name="estado" readonly>
+
+        <label>IBGE:</label>
+        <input type="text" id="ibge" name="ibge" readonly>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
